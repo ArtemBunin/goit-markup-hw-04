@@ -198,9 +198,12 @@ a {
 /* оформление что мы умееем */
 
 .skills-cards {
+	display: flex;
+	align-items: center;
+	justify-content: center;
   width: 270px;
-  padding: 25px 100px;
-  margin-bottom: 30px;
+  height: 120px; ;
+    margin-bottom: 30px;
   background-color: var(--supporting-background-collor);
   border-radius: 4px;
 }
@@ -263,7 +266,7 @@ a {
   margin-bottom: 50px;
 }
 .team-field {
-  background-color: var(--white-cloror);
+  background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -294,13 +297,15 @@ a {
   margin-right: 10px;
 }
 .network-icon {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50px;
   background-color: var(--white-color);
   color: var(--icon-color);
-  padding: 12px;
+ 
 }
 .icon {
   fill: currentColor;
@@ -310,11 +315,7 @@ a {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
-/* .icon:hover,
-.icon:focus {
-  fill: var(--white-color);
-} */
-/* оформление секции постоянные клиенты */
+
 .title-clients {
   color: var(--title-text-color);
   font-weight: 700;
@@ -331,12 +332,13 @@ a {
 }
 .icon-company {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 170px;
 	height: 92px;
 	border: 1px solid #AFB1B8;
 	border-radius: 4px;
-	padding: 16px 32px;
-	color:var(--icon-color);
+		color:var(--icon-color);
 }
 .icon-company:hover,.icon-company:focus {
 	border-color: var(--accent-color);
@@ -424,13 +426,15 @@ margin-left: 70px;
 	margin-right: 10px;
 }
 .network-footer {
-	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 44px;
 	height: 44px;
 	border-radius: 50px;
 	background: rgba(255, 255, 255, 0.1);
 	color: var(--white-color);
-	padding: 12px;
+	
 }
 .icon {
 	fill: currentColor;
@@ -460,7 +464,7 @@ margin-left: 70px;
   border-radius: 4px;
   cursor: pointer;
   border-color: var(--background-collor-button);
-
+border:none;
   padding: 6px 22px;
 }
 .action:hover,
@@ -498,7 +502,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
   border-style: solid;
   border-color: #eeeeee;
   border-top-width: 0px;
-  border-bottom: 1pxsolid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;;
   border-right: 1px solid #EEEEEE;;
   padding-top: 20px;
