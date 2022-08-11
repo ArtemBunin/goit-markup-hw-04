@@ -167,7 +167,7 @@ a {
   text-align: center;
 }
 .order-title {
-  color: var(--white-cloror);
+  color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -180,7 +180,7 @@ a {
 
 .button-order {
   background-color: var(--accent-color);
-  color: var(--white-cloror);
+  color: var(--white-color);
   font-family: inherit;
   font-size: 16px;
   font-weight: 700;
@@ -308,12 +308,12 @@ a {
 .network-icon:hover,
 .network-icon:focus {
   background-color: var(--accent-color);
-  fill: var(--white-color);
+  color: var(--white-color);
 }
-.icon:hover,
+/* .icon:hover,
 .icon:focus {
   fill: var(--white-color);
-}
+} */
 /* оформление секции постоянные клиенты */
 .title-clients {
   color: var(--title-text-color);
@@ -330,6 +330,7 @@ a {
 	margin-right: 30px;
 }
 .icon-company {
+	display: flex;
 	width: 170px;
 	height: 92px;
 	border: 1px solid #AFB1B8;
@@ -339,16 +340,13 @@ a {
 }
 .icon-company:hover,.icon-company:focus {
 	border-color: var(--accent-color);
+	color: var(--accent-color);
 }
+
 .icon-client {
 	fill: currentColor;
- ;
 }
-.icon-client:hover,.icon-client:focus{
-	fill: var(--accent-color);
-	;
-}
-/*оформление подвала */
+
 .footer {
   background-color: #2f303a;
   height: 252px;
@@ -405,13 +403,15 @@ a {
 
 .footer-flex {
   display: flex;
+  align-items: baseline;
 }
 .join-title {
   text-transform: uppercase;
-  color: var(--white-cloror);
+  color: var(--white-color);
   line-height: 1.14;
-  font-weight: 700px;
-  margin-left: 156px;
+  font-weight: 700;
+margin-left: 70px;
+  
 }
 
 .sohial {
@@ -428,8 +428,8 @@ a {
 	width: 44px;
 	height: 44px;
 	border-radius: 50px;
-	background: rgba(255, 255, 255, 0.1);;
-	color: var(--icon-color);
+	background: rgba(255, 255, 255, 0.1);
+	color: var(--white-color);
 	padding: 12px;
 }
 .icon {
@@ -442,10 +442,7 @@ a {
 	fill: var(--white-color);
 }
 
-.icon:hover,
-.icon:focus {
-	fill: var(--white-color);
-}
+
 /* разметка страницы портфолио  раздела main*/
 .operation {
   display: flex;
@@ -468,9 +465,10 @@ a {
 }
 .action:hover,
 .action:focus {
-  color: var(--white-cloror);
+  color: var(--white-color);
   background-color: var(--accent-color);
   border-color: var(--accent-color);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .operation li:not(:last-child) {
   margin-right: 8px;
@@ -483,6 +481,10 @@ a {
 .project-li {
   margin-right: 30px;
   margin-bottom: 30px;
+  
+}
+.project-li:hover,.project-li:focus {
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .project-li:nth-child(3n) {
   margin-right: 0;
@@ -496,12 +498,13 @@ a {
   border-style: solid;
   border-color: #eeeeee;
   border-top-width: 0px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
-  border-right-width: 1px;
+  border-bottom: 1pxsolid #EEEEEE;
+  border-left: 1px solid #EEEEEE;;
+  border-right: 1px solid #EEEEEE;;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
+
 }
 .name-project {
   font-weight: 700;
