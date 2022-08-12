@@ -67,7 +67,7 @@
 
       <section class="section skills">
         <div class="container">
-          <h2 class="skills-title">Что мы умеем</h2>
+          <h2 class="visually-hidden">Что мы умеем</h2>
 
           <ul class="skills list">
             <li>
@@ -128,25 +128,34 @@
           <h2 class="work-title">Чем мы занимаемся</h2>
           <ul class="work-image list">
             <li>
-              <img
-                src="./images/keyboard.jpg"
-                alt="печатает на клавиатуре"
-                width="370"
-              />
+              <div class="work-thumb">
+                <img
+                  src="./images/keyboard.jpg"
+                  alt="печатает на клавиатуре"
+                  width="370"
+                />
+                <p class="text-thumb">десктопные приложения</p>
+              </div>
             </li>
             <li>
-              <img
-                src="./images/telephone.jpg"
-                alt="смотрит на телефон"
-                width="370"
-              />
+              <div class="work-thumb">
+                <img
+                  src="./images/telephone.jpg"
+                  alt="смотрит на телефон"
+                  width="370"
+                />
+                <p class="text-thumb">мобильные приложения</p>
+              </div>
             </li>
             <li>
-              <img
-                src="./images/planchet.jpg"
-                alt="смотрит на планшет"
-                width="370"
-              />
+              <div class="work-thumb">
+                <img
+                  src="./images/planchet.jpg"
+                  alt="смотрит на планшет"
+                  width="370"
+                />
+                <p class="text-thumb">дизайнерские решения</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -169,7 +178,7 @@
                     <p class="text">Product Designer</p>
                     <ul class="network list">
                       <li>
-                        <a href="" class="network-icon">
+                        <a href="" class="network-icon" aria-label="instagram">
                           <svg class="icon" width="20px" height="20px">
                             <use
                               href="./images/symbol-defs.svg#icon-instagram"
@@ -178,7 +187,7 @@
                         </a>
                       </li>
                       <li>
-                        <a href="" class="network-icon">
+                        <a href="" class="network-icon" aria-label="twitter">
                           <svg class="icon" width="20px" height="20px">
                             <use
                               href="./images/symbol-defs.svg#icon-twitter"
@@ -187,7 +196,7 @@
                         </a>
                       </li>
                       <li>
-                        <a href="" class="network-icon">
+                        <a href="" aria-label="facebook" class="network-icon">
                           <svg class="icon" width="20px" height="20px">
                             <use
                               href="./images/symbol-defs.svg#icon-facebook"
@@ -196,7 +205,7 @@
                         </a>
                       </li>
                       <li>
-                        <a href="" class="network-icon">
+                        <a href="" class="network-icon" aria-label="linkedin">
                           <svg class="icon" width="20px" height="20px">
                             <use
                               href="./images/symbol-defs.svg#icon-linkedin"
@@ -221,7 +230,7 @@
                     <p class="text">Frontend Developer</p>
                     <ul class="network list">
                       <li>
-                        <a href="" class="network-icon">
+                        <a href="" class="network-icon" aria-label="instagram">
                           <svg class="icon" width="20px" height="20px">
                             <use
                               href="./images/symbol-defs.svg#icon-instagram"
@@ -230,7 +239,7 @@
                         </a>
                       </li>
                       <li>
-                        <a href="" class="network-icon">
+                        <a href="" class="network-icon" aria-label="twitter">
                           <svg class="icon" width="20px" height="20px">
                             <use
                               href="./images/symbol-defs.svg#icon-twitter"
@@ -239,7 +248,7 @@
                         </a>
                       </li>
                       <li>
-                        <a href="" class="network-icon">
+                        <a href="" class="network-icon" aria-label="facebook">
                           <svg class="icon" width="20px" height="20px">
                             <use
                               href="./images/symbol-defs.svg#icon-facebook"
@@ -248,7 +257,7 @@
                         </a>
                       </li>
                       <li>
-                        <a href="" class="network-icon">
+                        <a href="" class="network-icon" aria-label="linkedin">
                           <svg class="icon" width="20px" height="20px">
                             <use
                               href="./images/symbol-defs.svg#icon-linkedin"
@@ -272,7 +281,7 @@
                     <p class="text">Marketing</p>
                     <ul class="network list">
                       <li>
-                        <a href="" class="network-icon">
+                        <a href="" class="network-icon" aria-label="instagram">
                           <svg class="icon" width="20px" height="20px">
                             <use
                               href="./images/symbol-defs.svg#icon-instagram"
@@ -281,7 +290,7 @@
                         </a>
                       </li>
                       <li>
-                        <a href="" class="network-icon">
+                        <a href="" class="network-icon" aria-label="twitter">
                           <svg class="icon" width="20px" height="20px">
                             <use
                               href="./images/symbol-defs.svg#icon-twitter"
@@ -291,7 +300,12 @@
                       </li>
                       <li>
                         <a href="" class="network-icon">
-                          <svg class="icon" width="20px" height="20px">
+                          <svg
+                            class="icon"
+                            width="20px"
+                            height="20px"
+                            aria-label="facebook"
+                          >
                             <use
                               href="./images/symbol-defs.svg#icon-facebook"
                             ></use>
@@ -299,7 +313,7 @@
                         </a>
                       </li>
                       <li>
-                        <a href="" class="network-icon">
+                        <a href="" class="network-icon" aria-label="linkedin">
                           <svg class="icon" width="20px" height="20px">
                             <use
                               href="./images/symbol-defs.svg#icon-linkedin"
@@ -323,7 +337,7 @@
                     <p class="text">UI Designer</p>
                     <ul class="network list">
                       <li>
-                        <a href="" class="network-icon">
+                        <a href="" class="network-icon" aria-label="instagram">
                           <svg class="icon" width="20px" height="20px">
                             <use
                               href="./images/symbol-defs.svg#icon-instagram"
@@ -332,7 +346,7 @@
                         </a>
                       </li>
                       <li>
-                        <a href="" class="network-icon">
+                        <a href="" class="network-icon" aria-label="twitter">
                           <svg class="icon" width="20px" height="20px">
                             <use
                               href="./images/symbol-defs.svg#icon-twitter"
@@ -341,7 +355,7 @@
                         </a>
                       </li>
                       <li>
-                        <a href="" class="network-icon">
+                        <a href="" class="network-icon" aria-label="facebook">
                           <svg class="icon" width="20px" height="20px">
                             <use
                               href="./images/symbol-defs.svg#icon-facebook"
@@ -350,7 +364,7 @@
                         </a>
                       </li>
                       <li>
-                        <a href="" class="network-icon">
+                        <a href="" class="network-icon" aria-label="linkedin">
                           <svg class="icon" width="20px" height="20px">
                             <use
                               href="./images/symbol-defs.svg#icon-linkedin"
@@ -376,42 +390,42 @@
                 <svg class="icon-client" width="106px" height="60px">
                   <use href="./images/symbol-defs.svg#icon-Union"></use>
                 </svg>
-			</a>
+              </a>
             </li>
             <li>
               <a href="#" class="icon-company">
                 <svg class="icon-client" width="106px" height="60px">
                   <use href="./images/symbol-defs.svg#icon-company"></use>
                 </svg>
-			</a>
+              </a>
             </li>
             <li>
               <a href="#" class="icon-company">
                 <svg class="icon-client" width="106px" height="60px">
                   <use href="./images/symbol-defs.svg#icon-Object"></use>
                 </svg>
-			</a>
+              </a>
             </li>
             <li>
               <a href="#" class="icon-company">
                 <svg class="icon-client" width="106px" height="60px">
                   <use href="./images/symbol-defs.svg#icon-foster-peters"></use>
                 </svg>
-			</a>
+              </a>
             </li>
             <li>
               <a href="#" class="icon-company">
                 <svg class="icon-client" width="106px" height="60px">
                   <use href="./images/symbol-defs.svg#icon-brand"></use>
                 </svg>
-			</a>
+              </a>
             </li>
             <li>
               <a href="3" class="icon-company">
                 <svg class="icon-client" width="106px" height="60px">
                   <use href="./images/symbol-defs.svg#icon-company-2"></use>
                 </svg>
-			</a>
+              </a>
             </li>
           </ul>
         </div>
@@ -446,14 +460,14 @@
           <p class="join-title">присоединяйтесь</p>
           <ul class="sohial list">
             <li>
-              <a href="" class="network-footer">
+              <a href="" class="network-footer" aria-label="instagram">
                 <svg class="icon" width="20px" height="20px">
                   <use href="./images/symbol-defs.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="" class="network-footer">
+              <a href="" class="network-footer" aria-label="twitter">
                 <svg class="icon" width="20px" height="20px">
                   <use href="./images/symbol-defs.svg#icon-twitter"></use>
                 </svg>
@@ -461,14 +475,24 @@
             </li>
             <li>
               <a href="" class="network-footer">
-                <svg class="icon" width="20px" height="20px">
+                <svg
+                  class="icon"
+                  width="20px"
+                  height="20px"
+                  aria-label="facebook"
+                >
                   <use href="./images/symbol-defs.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="" class="network-footer">
-                <svg class="icon" width="20px" height="20px">
+                <svg
+                  class="icon"
+                  width="20px"
+                  height="20px"
+                  aria-label="linkedin"
+                >
                   <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                 </svg>
               </a>
